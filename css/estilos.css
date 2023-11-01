@@ -1,0 +1,143 @@
+@font-face {
+    font-family: "poppins";
+    src: url("../fonts/poppins.ttf");
+}
+
+@font-face {
+    font-family: "titillium";
+    src: url("../fonts/titillium.ttf");
+}
+
+body {
+    background-color: #EAEAEA;
+    color: #535353;
+    font-family: poppins;
+    font-size: 1.2em;
+
+}
+
+.contenedor_index {
+    height: 800px;
+    background-image: url("../imagenes/fondoindex.jpg");
+    background-repeat: no-repeat;
+    width: 1500px;
+    margin: 0px auto;
+
+}
+
+.img_index {
+    width: 300px;
+    display: inline-block;
+    margin: 350px auto 0;
+    margin-left: 300px;
+}
+
+.boton {
+    width: 275px;
+    padding: 10px;
+    margin: 0 300px;
+}
+
+.boton_index {
+    display: block;
+    width: 275px;
+    height: 40px;
+    background-color: #dd5533;
+}
+
+.enlaceboton {
+    text-decoration: none;
+    font-size: 1.25em;
+}
+
+.contenedor_blog {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.header_blog {
+    background-image: url("../imagenes/fondomenu.jpg");
+    width: 100%;
+    height: 80px;
+    background-repeat: repeat-x;
+
+}
+
+.nav_menu {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.nav_menu p {
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    padding: 4px 10px 0px 0px;
+
+}
+
+.nav_menu p:hover {
+    color: #dd5533;
+    border-bottom: 1px solid #dd5533;
+}
+
+.main_blog {
+    max-width: 1200px;
+    font-family: titillium;
+    display: flex;
+    margin: 0 auto;
+
+}
+
+.section_1 {
+    width: 70%;
+}
+
+.gato {
+    width: 100%;
+}
+
+.article {
+    background-color: white;
+    margin-bottom: 15px;
+    border-top: 5px solid #dd5533;
+
+}
+
+.article h3 {
+
+    font-size: 1.75rem;
+    color: #dd5533;
+    margin: 0;
+    font-variant: small-caps;
+}
+
+.article p {
+    font-size: 1.2rem;
+}
+
+.boton_article {
+    background-color: #dd5533;
+    height: 40px;
+    color: white;
+    font-family: titillium;
+    font-size: 1.2rem;
+    margin-left: 650px;
+    margin-bottom: 10px;
+}
+
+.section_2 {
+    width: 28%;
+    margin-left: 20px;
+    
+}
+.aside{
+    display: inline-block;
+}
+
+.img_section2 {
+    width: 100%;
+    margin-bottom: 15px;
+    border-top: 5px solid #dd5533;
+}
